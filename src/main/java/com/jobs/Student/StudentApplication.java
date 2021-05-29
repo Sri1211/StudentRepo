@@ -23,6 +23,7 @@ public class StudentApplication extends SpringBootServletInitializer {
 	public String hello(@RequestParam(value = "name", defaultValue = "Praveen") String name) {
 	return String.format("Hello %s!", name);
 	}
+	//test the comment
 	public static void main(String[] args) {
 		SpringApplication.run(StudentApplication.class, args);
 	}
